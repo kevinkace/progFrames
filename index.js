@@ -10,16 +10,18 @@ const meow = require("meow"),
             $ progFrames <input>
 
         Options
-            -i, --image filename, path, or glob of files to process
-            -c, --count number of frames (default 3)
+            -i, --image ${help.i}
+            -c, --count ${help.c}
+            -o, --output ${help.o}
 
         Examples
             $ progFrames -i example.jpg -c 5
-            $ progFrames -i ./img/**/*.jpg -c 5
+            $ progFrames -i "./img/**/*.jpg" -c 5
     `, {
         alias : {
             i : "image",
-            c : "count"
+            c : "count",
+            o : "output"
         }
     });
 
