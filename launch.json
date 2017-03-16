@@ -1,0 +1,8 @@
+{
+    "version" : "0.0.1",
+    "configurations" : [{
+        "type"    : "node",
+        "require" : "launch",
+        "name"    : "Launch Program"
+    }]
+};
