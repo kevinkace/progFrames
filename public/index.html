@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            div {
+                background: no-repeat 0 0;
+
+                animation: progframes 4s steps(1) forwards;
+            }
+            img {
+                display: block;
+                opacity: 0;
+
+                animation: progframe 4s forwards steps(1);
+            }
+
+            @keyframes progframes {
+                0% {
+                    background-position: 0 100%;
+                }
+                17% {
+                    background-position: 0 80%;
+                }
+                33% {
+                    background-position: 0 60%;
+                }
+                50% {
+                    background-position: 0 40%;
+                }
+                66% {
+                    background-position: 0 20%;
+                }
+                83% {
+                    background-position: 0 0;
+                }
+                100% {
+                    background: none;
+                }
+            }
+
+            @keyframes progframe {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+        </style>
+
+    </head>
+    <body>
+        <div>
+            <div style="background-image: url(/img/0-pf.jpg)">
+                <img src="/img/0.jpg" alt="">
+            </div>
+            <div style="background-image: url(/img/1-pf.jpg)">
+                <img src="/img/1.jpg" alt="">
+            </div>
+            <div style="background-image: url(/img/2-pf.jpg)">
+                <img src="/img/2.jpg" alt="">
+            </div>
+            <div style="background-image: url(/img/3-pf.jpg)">
+                <img src="/img/3.jpg" alt="">
+            </div>
+        </div>
+    </body>
+</html>
