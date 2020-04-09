@@ -1,6 +1,7 @@
 "use strict";
 
 const meow = require("meow");
+
 const progFrames = require("./lib");
 
 const help = progFrames.help;
