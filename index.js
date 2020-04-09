@@ -1,11 +1,11 @@
 "use strict";
 
-const meow = require("meow"),
-    progFrames = require("./lib"),
+const meow = require("meow");
+const progFrames = require("./lib");
 
-    help = progFrames.help,
+const help = progFrames.help;
 
-    cli = meow(`
+const cli = meow(`
         Usage
             $ progFrames <input>
 
