@@ -6,3 +6,4 @@ Fake slow loading progressive JPGs
 1. run `npm i`
 1. drop imgs in `./img`
 1. run `npm start`
+1. progFrames are in `./progFrames`
